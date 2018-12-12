@@ -7,8 +7,8 @@
 ```objc
     dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);;
     LKWeakSelf;
-    [[YASGCDTimerManager sharedInstance]scheduledDispatchTimerWithName:@"YASScreenCaptureTool"
-                                                          timeInterval:frameRate
+    [[YASGCDTimerManager sharedInstance]scheduledDispatchTimerWithName:@"task_1"
+                                                          timeInterval:10
                                                                  queue:queue
                                                                repeats:YES
                                                           actionOption:YASGCDTimerManagerAbandonPreviousAction
@@ -18,6 +18,6 @@
     
     
     /** 取消释放任务*/
-    [[YASGCDTimerManager sharedInstance]cancelTimerWithName:@"YASScreenCaptureTool"];
+    [[YASGCDTimerManager sharedInstance]cancelTimerWithName:@"task_1"];
     
  ```
