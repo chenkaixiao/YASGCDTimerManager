@@ -1,6 +1,6 @@
 YASGCDTimerManager
 
-========
+==============
 
 **YASGCDTimerManager is a  Timer with GCD  for iOS.**  
 
