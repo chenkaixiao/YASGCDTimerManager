@@ -20,4 +20,4 @@
     /** 取消释放任务*/
     [[YASGCDTimerManager sharedInstance]cancelTimerWithName:@"YASScreenCaptureTool"];
     
-    ```
+ ```
