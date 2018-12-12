@@ -1,7 +1,13 @@
-# YASGCDTimerManager
-## 利用GCD实现的定时器
-* 可实现管理多个任务
-* 可实现设置任务keyName
+YASGCDTimerManager
+
+========
+
+**YASGCDTimerManager is a  Timer with GCD  for iOS.**  
+
+## Features
+- [x] 	 可实现管理多个任务
+- [x] 	 可实现管理关键字key管理任务
+- [x] 	 性能比NSTimer好
 
 ## Usage example 
 ```objc
